@@ -21,12 +21,12 @@ export default function Header() {
         <div className="flex flex-row content-center items-center text-center">
           <div className="flex flex-col">
             <div>
-              <h1 className="text-lg text-white bold">
+              <h1 className="text-7xl text-white font-bold">
                 50% Discount <br />
                 Online Shop
               </h1>
             </div>
-            <div>
+            <div className="p-6">
               <p>
                 <i>
                   there are many variations of passages lorem Ipsum available,
@@ -34,8 +34,8 @@ export default function Header() {
                 </i>
               </p>
             </div>
-            <div>
-              <div className="bg-yellow-500 rounded-full w-15">Shop now</div>
+            <div className="m-50 ">
+              <div className="bg-yellow-500 rounded-xl w-18 items-center justify-center"></div>
             </div>
           </div>
           <div className="ml-50">
