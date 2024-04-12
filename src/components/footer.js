@@ -1,7 +1,9 @@
 import React from "react";
+import FooterTabs from "./footerTabs";
 export default function Footer() {
   return (
-    <div className="bg-purple-600 text-center items-center p-6 mb-2 ">
+    <>
+    <div className="bg-purple-600 text-center  p-6 mb-2 ">
       <div className="flex flex-col text-white">
         <h3 style={{ textTransform: "uppercase" }}>connect to Caraft</h3>
         <h1
@@ -18,18 +20,16 @@ export default function Footer() {
           suffered alteration
         </p>
       </div>
-      <div className="flex flex-row justify-center border-b-2 p-1 w-20 items-center ml-50">
+      <div className="border-b-2 flex flex-row  justify-end  w-30">
         <input
-          type="email"
-          className="bg-purple-600"
-          placeholder="enter your Email"
+          placeholder="Enter  your Email "
+          type="text"
+          className="form-input border-0 bg-purple-600 "
         />
-        <div className="border-1 rounded-xl bg-pink-400 text-white flex-shrink  ">
-          <button>
-            Suscribe
-          </button>
-        </div>
+        <button className="bg-white text-purple-600 rounded-xl w-40">Suscribe</button>
       </div>
     </div>
+          <FooterTabs/>
+          </>
   );
 }
